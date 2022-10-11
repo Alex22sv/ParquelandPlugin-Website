@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Parqueland Plugin</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+
+	<!-- Sidebar -->
+	<section id="sidebar">
+		<div class="inner">
+			<nav>
+				<ul>
+					<li><a href="#intro">Acerca</a></li>
+					<li><a href="#one">Funciones</a></li>
+					<li><a href="#two">Comandos</a></li>
+					<li><a href="#three">Ayuda</a></li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Intro -->
+		<section id="intro" class="wrapper style1 fullscreen fade-up">
+			<div class="inner">
+				<h1>Parqueland</h1>
+				<p><b>Parqueland</b> es un plugin de Minecraft para el servidor de roleplay "Parqueland" en español pero
+					también puede usarse en otros servidores.</p>
+				<ul class="actions">
+					<li><a href="https://github.com/Alex22sv/Parqueland-Plugin" class="button scrolly">GitHub</a></li>
+					<li><a href="https://discord.gg/7VPhYTVh55" class="button scrolly">Discord</a></li>
+				</ul>
+				
+			</div>
+		</section>
+
+		<!-- One -->
+		<section id="one" class="wrapper style2 spotlights">
+			<div class="inner">
+				<h2>Funciones</h2>
+				<p>Aquí encontrarás la lista de comandos con sus respectivos permisos requeridos.</p>
+				<div class="features">
+					<section>
+						<span class="icon major fa-cog"></span>
+						<h3>Menú de admins personalizado</h3>
+						<p>Con el comando <code>/adminmenu</code> podrás acceder a una interfaz que te permitirá moderar jugadores fácilmente.</p>
+					</section>
+					<section>
+						<span class="icon major fa-hand"></span>
+						<h3>Mensajes de bienvenida y despedida personalizados</h3>
+						<p>
+							<p>En el archivo <code>config.yml</code> podrás habilitar los permisos personalizados enviados cuando jugadores entren al servidor o salgan de él. Compatible con formatos de colores.</p>
+						</p>
+					</section>
+					<section>
+						<span class="icon major fa-book"></span>
+						<h3>Tus propias reglas</h3>
+						<p>En el archivo <code>config.yml</code> podrás escribir tus propias reglas del servidor que se mostrarán cuando un jugador ejecute <code>/reglas</code>.</p>
+					</section>
+					<section>
+						<span class="icon major fa-desktop"></span>
+						<h3>Roleplay con DIOSES</h3>
+						<p>Con el comando <code>/dioses</code> podrás enviar mensajes como si fueses parte del grupo de "DIOSES".</p>
+					</section>
+				</div>
+				<!-- <ul class="actions">
+					<li><a href="#" class="button">Learn more</a></li>
+				</ul> -->
+			</div>
+		</section>
+
+		<!-- Two -->
+		<section id="two" class="wrapper style3 fade-up">
+			<div class="inner">
+				<h2>Comandos</h2>
+				<p>Aquí encontrarás la lista de comandos con sus respectivos permisos requeridos.</p>
+				<div class="table-wrapper">
+					<table>
+						<thead>
+							<tr>
+								<th>Comando</th>
+								<th>Descripción</th>
+								<th>Permisos</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>/adminmenu</td>
+								<td>Abre el menú de admins para banear/expulsar/mutear/congelar jugadores.</td>
+								<td>parqueland.AdminMenuCommand</td>
+							</tr>
+							<tr>
+								<td>/alimentar &lt;jugador&gt;</td>
+								<td>Quita el hambre a un jugador.</td>
+								<td>parqueland.Alimentar</td>
+							</tr>
+							<tr>
+								<td>/curar &lt;jugador&gt;</td>
+								<td>Cura a un jugador.</td>
+								<td>parqueland.CurarCommand</td>
+							</tr>
+							<tr>
+								<td>/dioses &lt;jugador&gt; &lt;mensajes&gt;</td>
+								<td>Envía mensajes como autor 'DIOSES'.</td>
+								<td>parqueland.DiosesCommand</td>
+							</tr>
+							<tr>
+								<td>/enviarobjeto &lt;jugador&gt; &lt;cantidad&gt;</td>
+								<td>Envía una cantidad de objetos que tengas en la mano a otro jugador.</td>
+								<td>parqueland.EnviarObjetoCommand</td>
+							</tr>
+							<tr>
+								<td>/rayo &lt;jugador&gt;</td>
+								<td>Lanza un rayo a un jugador.</td>
+								<td>parqueland.RayoCommand</td>
+							</tr>
+							<tr>
+								<td>/reglas</td>
+								<td>Obtén las reglas del servidor.</td>
+								<td>Ninguno</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+
+		<!-- Three -->
+		<section id="three" class="wrapper style1 fade-up">
+			<div class="inner">
+				<h2>Ayuda</h2>
+				<p>
+					Si tienes dudas acerca de este plugin o te encuentras con un bug o tienes alguna sugerencia puedes abrir un ticket en <a href="https://github.com/Alex22sv/ParquelandPlugin-Website/issues">GitHub</a> o únete a nuestro servidor de Discord presionando <a href="https://discord.gg/7VPhYTVh55">aquí</a>.
+				</p>
+				
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper style1-alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>Página web bajo licencia GPL-3.0 license</li>
+				<li>Diseño: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
